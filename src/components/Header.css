@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: white;
+    box-shadow: 0 0 3px gray;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.linkedin-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+.linkedin-name input{
+    height: 35px;
+    width: 300px;
+    border-radius: 20px;
+    border: 2px solid gray;
+    padding-left: 0.5rem;
+}
+.header a{
+    font-weight: 800;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.75);
+    text-decoration: none;
+}
+
+@media(max-width: 480px) {
+    .header{
+        padding: 1rem 0.5rem;
+    }
+    .linkedin-name input{
+        width: 100%;
+    }
+}
