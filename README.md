@@ -28,25 +28,6 @@ A simple **LinkedIn Feed UI Clone** built with **React.js** to practice componen
 
 ---
 
-## 📁 Project Structure
-
-```
-src/
-│
-├── assets/
-│   ├── Icons
-│   ├── Images
-│
-├── components/
-│   ├── Post.jsx
-│   ├── Search.jsx
-│
-├── App.jsx
-├── main.jsx
-```
-
----
-
 ## 📖 What I Learned
 
 While building this project, I practiced:
